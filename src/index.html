@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+
+    <!--Copy from the website Bulma CSS-->
+    <!--https://bulma.io/documentation/start/overview/-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link rel="stylesheet" href="index.css" />
+
+    <!--Script points to render.js-->
+    <!--defer attributes loads script after the HTML-->
+    <script defer src="render.js"></script>
+  </head>
+  
+  <body>
+    <h1>Electron Screen Recorder</h1>
+
+    <video></video>
+
+    <!--Button to start recording-->
+    <button id="startButton" class="button is-primary">Start</button>
+    <!--Button to stop recording-->
+    <button id="stopButton" class="button is-warning">Stop</button>
+
+    <!--Horizontal line-->
+    <hr>
+
+    <button id="videoSourceButton" class="button is-text">Select a Video Source</button>
+
+  </body>
+</html>
