@@ -1,5 +1,5 @@
-# proj-02-screenRecord
-A small project following this YouTube video (https://www.youtube.com/watch?v=3yqDxhR2XxE).
+# About
+A desktop screen recorder built with Electron, HTML, CSS, and JavaScript. However, the application captures screen activity without audio using the Electron desktopCapturer API. 
 
-# Usernames Mess Up
-moua0356 is my school username, while rozimo is my personal GitHub account.
+# Side Note
+moua0356 is my school username, while rozimo is my personal GitHub account. The contribution made by moua0356 is still me, rozimo.
